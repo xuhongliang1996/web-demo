@@ -21,10 +21,14 @@
     color: #463265;
     background-color: #f9f9f9;
 }
-/****/
-.bs-docs-header, .bs-docs-masthead {
-    position: relative;
-    padding: 80px 0;
+/******/
+.content{
+}
+.content .left{
+    float: left;
+    width: 20%;
+    height: 800px;
+    padding: 40px 0;
     color: #cdbfe3;
     text-align: center;
     text-shadow: 0 1px 0 rgba(0,0,0,.1);
@@ -36,55 +40,8 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0);
     background-repeat: repeat-x;
 }
-.bs-docs-masthead .bs-docs-booticon {
-    margin: 0 auto 30px;
-}
-.bs-docs-booticon-outline {
-    background-color: transparent;
-    border: 1px solid #cdbfe3;
-}
-.bs-docs-booticon-lg {
-    width: 144px;
-    height: 144px;
-    font-size: 108px;
-    line-height: 140px;
-}
-.bs-docs-booticon {
-    display: block;
-    font-weight: 500;
-    color: #fff;
-    text-align: center;
-    cursor: default;
-    background-color: #563d7c;
-    border-radius: 15%;
-}
-.bs-docs-masthead .lead {
-    margin: 0 auto 30px;
-    font-size: 20px;
-    color: #fff;
-}
-@media (min-width: 768px){
-    .bs-docs-masthead .lead {
-        font-size: 24px;
-    }
-}
-@media (min-width: 480px)｛
-    .bs-docs-masthead .btn {
-        width: auto;
-    }
-｝
-.bs-docs-masthead .btn {
-    width: 100%;
-    padding: 15px 30px;
-    font-size: 20px;
-}
-.btn-outline-inverse {
-    color: #fff;
-    background-color: transparent;
-    border-color: #cdbfe3;
-    }
-.bs-docs-masthead .version {
-    margin-top: -15px;
-    margin-bottom: 30px;
-    color: #9783b9;
+.content .right{
+    float: left;
+    width: 80%;
+    height: 800px;
 }
