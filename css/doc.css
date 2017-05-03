@@ -26,8 +26,8 @@
 }
 .content .left{
     float: left;
-    width: 10%;
-    min-height:550px;
+    width: 15%;
+    min-height:560px;
     height: auto;
     padding: 40px 0;
     color: #cdbfe3;
@@ -43,6 +43,6 @@
 }
 .content .right{
     float: left;
-    min-width: 90%;
-    height: 550px;
+    min-width: 85%;
+    height: 560px;
 }
